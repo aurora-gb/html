@@ -71,7 +71,7 @@ section{
     }
   }
  }
- 
+
  .orden_columna {
   display: flex;
   flex-direction: column;
@@ -79,4 +79,39 @@ section{
   justify-content: center; /*centro vertical*/
   gap: 15px;
 }
-    
+
+.services{
+width: 100%;
+height: auto;
+background-color: rgb(166, 168, 240);
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.cards{
+  width: 90%;
+  height: auto;
+  background-color: rgb(5, 9, 121);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+  width: 200px;
+  height: 300px;
+  background-color: rgb(29, 149, 127);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 6px;
+
+  img{
+    width: 100%;
+    height: 200px;
+  }
+}
